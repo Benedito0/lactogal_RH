@@ -20,5 +20,3 @@ da FEUP. Foi um problema proposto pela Lactogal, com o objectivo de facilitar a 
 - Consultar estado de uma pergunta.
 
 
-**AINDA EM DESENVOLVIMENTO**
-**TO BE DEPLOYED**
