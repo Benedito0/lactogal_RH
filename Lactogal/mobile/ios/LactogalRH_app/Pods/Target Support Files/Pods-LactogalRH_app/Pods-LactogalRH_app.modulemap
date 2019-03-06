@@ -1,0 +1,6 @@
+framework module Pods_LactogalRH_app {
+  umbrella header "Pods-LactogalRH_app-umbrella.h"
+
+  export *
+  module * { export * }
+}

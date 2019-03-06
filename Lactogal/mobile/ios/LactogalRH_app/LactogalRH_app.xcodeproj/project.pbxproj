@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		152C7D105172F4DFC2E751D7 /* Pods_LactogalRH_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903CB6EB2853B8E274D3618C /* Pods_LactogalRH_app.framework */; };
+		721F00DE22165A6B0096CC7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 721F00DD22165A6B0096CC7C /* GoogleService-Info.plist */; };
+		722831F422136AE00081BA50 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722831F322136AE00081BA50 /* HomePageController.swift */; };
+		722831F7221370CE0081BA50 /* TasksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722831F6221370CE0081BA50 /* TasksController.swift */; };
+		722831F9221371210081BA50 /* bottomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722831F8221371210081BA50 /* bottomTabBarController.swift */; };
+		722832032214F2FE0081BA50 /* FormFiling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722832022214F2FE0081BA50 /* FormFiling.swift */; };
+		72319722222363FF00D2D19D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72319721222363FF00D2D19D /* User.swift */; };
+		7231972B222365C700D2D19D /* LactogalRH_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 72319729222365C700D2D19D /* LactogalRH_app.xcdatamodeld */; };
+		72DCB70F2213487C0028BAEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DCB70E2213487C0028BAEF /* AppDelegate.swift */; };
+		72DCB7112213487C0028BAEF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DCB7102213487C0028BAEF /* LoginViewController.swift */; };
+		72DCB7142213487C0028BAEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DCB7122213487C0028BAEF /* Main.storyboard */; };
+		72DCB7192213487E0028BAEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DCB7182213487E0028BAEF /* Assets.xcassets */; };
+		72DCB71C2213487E0028BAEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DCB71A2213487E0028BAEF /* LaunchScreen.storyboard */; };
+		72DCB725221348CF0028BAEF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DCB724221348CF0028BAEF /* RegisterViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		70A5E454041F7E6EFB0213DC /* Pods-LactogalRH_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LactogalRH_app.release.xcconfig"; path = "Pods/Target Support Files/Pods-LactogalRH_app/Pods-LactogalRH_app.release.xcconfig"; sourceTree = "<group>"; };
+		721F00DD22165A6B0096CC7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		722831F322136AE00081BA50 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
+		722831F6221370CE0081BA50 /* TasksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksController.swift; sourceTree = "<group>"; };
+		722831F8221371210081BA50 /* bottomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bottomTabBarController.swift; sourceTree = "<group>"; };
+		722832022214F2FE0081BA50 /* FormFiling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFiling.swift; sourceTree = "<group>"; };
+		72319721222363FF00D2D19D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = "LactogalRH_app/Utilities/Auth _ Reg/User.swift"; sourceTree = SOURCE_ROOT; };
+		7231972A222365C700D2D19D /* LactogalRH_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LactogalRH_app.xcdatamodel; sourceTree = "<group>"; };
+		72DCB70B2213487C0028BAEF /* LactogalRH_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LactogalRH_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DCB70E2213487C0028BAEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72DCB7102213487C0028BAEF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		72DCB7132213487C0028BAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72DCB7182213487E0028BAEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72DCB71B2213487E0028BAEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72DCB71D2213487E0028BAEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DCB724221348CF0028BAEF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		7EADF2D03849BA1A26C05A74 /* Pods-LactogalRH_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LactogalRH_app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LactogalRH_app/Pods-LactogalRH_app.debug.xcconfig"; sourceTree = "<group>"; };
+		903CB6EB2853B8E274D3618C /* Pods_LactogalRH_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LactogalRH_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72DCB7082213487C0028BAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152C7D105172F4DFC2E751D7 /* Pods_LactogalRH_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		722831F5221370540081BA50 /* bottomTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				722831F8221371210081BA50 /* bottomTabBarController.swift */,
+			);
+			path = bottomTabBarController;
+			sourceTree = "<group>";
+		};
+		72319720222363E800D2D19D /* Auth & Reg */ = {
+			isa = PBXGroup;
+			children = (
+				72319721222363FF00D2D19D /* User.swift */,
+			);
+			path = "Auth & Reg";
+			sourceTree = "<group>";
+		};
+		72DCB7022213487C0028BAEF = {
+			isa = PBXGroup;
+			children = (
+				721F00DD22165A6B0096CC7C /* GoogleService-Info.plist */,
+				72DCB70D2213487C0028BAEF /* LactogalRH_app */,
+				72DCB70C2213487C0028BAEF /* Products */,
+				DA930FFB1672F66E262A8119 /* Pods */,
+				D2C5C68560BD049213DCAFD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		72DCB70C2213487C0028BAEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72DCB70B2213487C0028BAEF /* LactogalRH_app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72DCB70D2213487C0028BAEF /* LactogalRH_app */ = {
+			isa = PBXGroup;
+			children = (
+				72319729222365C700D2D19D /* LactogalRH_app.xcdatamodeld */,
+				72DCB72622134AFF0028BAEF /* Utilities */,
+				72DCB723221348A10028BAEF /* Controllers */,
+				72DCB70E2213487C0028BAEF /* AppDelegate.swift */,
+				72DCB7122213487C0028BAEF /* Main.storyboard */,
+				72DCB7182213487E0028BAEF /* Assets.xcassets */,
+				72DCB71A2213487E0028BAEF /* LaunchScreen.storyboard */,
+				72DCB71D2213487E0028BAEF /* Info.plist */,
+			);
+			path = LactogalRH_app;
+			sourceTree = "<group>";
+		};
+		72DCB723221348A10028BAEF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				722831F5221370540081BA50 /* bottomTabBarController */,
+				72DCB7102213487C0028BAEF /* LoginViewController.swift */,
+				72DCB724221348CF0028BAEF /* RegisterViewController.swift */,
+				722831F322136AE00081BA50 /* HomePageController.swift */,
+				722831F6221370CE0081BA50 /* TasksController.swift */,
+				722832022214F2FE0081BA50 /* FormFiling.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		72DCB72622134AFF0028BAEF /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				72319720222363E800D2D19D /* Auth & Reg */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D2C5C68560BD049213DCAFD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				903CB6EB2853B8E274D3618C /* Pods_LactogalRH_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA930FFB1672F66E262A8119 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EADF2D03849BA1A26C05A74 /* Pods-LactogalRH_app.debug.xcconfig */,
+				70A5E454041F7E6EFB0213DC /* Pods-LactogalRH_app.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72DCB70A2213487C0028BAEF /* LactogalRH_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DCB7202213487E0028BAEF /* Build configuration list for PBXNativeTarget "LactogalRH_app" */;
+			buildPhases = (
+				5707183FC7BA78F6CF3370B0 /* [CP] Check Pods Manifest.lock */,
+				72DCB7072213487C0028BAEF /* Sources */,
+				72DCB7082213487C0028BAEF /* Frameworks */,
+				72DCB7092213487C0028BAEF /* Resources */,
+				2123744B73DA4AE16289F9A8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LactogalRH_app;
+			productName = LactogalRH_app;
+			productReference = 72DCB70B2213487C0028BAEF /* LactogalRH_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72DCB7032213487C0028BAEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Mauro Benedito";
+				TargetAttributes = {
+					72DCB70A2213487C0028BAEF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 72DCB7062213487C0028BAEF /* Build configuration list for PBXProject "LactogalRH_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72DCB7022213487C0028BAEF;
+			productRefGroup = 72DCB70C2213487C0028BAEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72DCB70A2213487C0028BAEF /* LactogalRH_app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72DCB7092213487C0028BAEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DCB71C2213487E0028BAEF /* LaunchScreen.storyboard in Resources */,
+				721F00DE22165A6B0096CC7C /* GoogleService-Info.plist in Resources */,
+				72DCB7192213487E0028BAEF /* Assets.xcassets in Resources */,
+				72DCB7142213487C0028BAEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2123744B73DA4AE16289F9A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LactogalRH_app/Pods-LactogalRH_app-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LactogalRH_app/Pods-LactogalRH_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5707183FC7BA78F6CF3370B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LactogalRH_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72DCB7072213487C0028BAEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DCB7112213487C0028BAEF /* LoginViewController.swift in Sources */,
+				72DCB70F2213487C0028BAEF /* AppDelegate.swift in Sources */,
+				7231972B222365C700D2D19D /* LactogalRH_app.xcdatamodeld in Sources */,
+				722831F9221371210081BA50 /* bottomTabBarController.swift in Sources */,
+				72DCB725221348CF0028BAEF /* RegisterViewController.swift in Sources */,
+				72319722222363FF00D2D19D /* User.swift in Sources */,
+				722832032214F2FE0081BA50 /* FormFiling.swift in Sources */,
+				722831F7221370CE0081BA50 /* TasksController.swift in Sources */,
+				722831F422136AE00081BA50 /* HomePageController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		72DCB7122213487C0028BAEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DCB7132213487C0028BAEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72DCB71A2213487E0028BAEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DCB71B2213487E0028BAEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72DCB71E2213487E0028BAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72DCB71F2213487E0028BAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72DCB7212213487E0028BAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EADF2D03849BA1A26C05A74 /* Pods-LactogalRH_app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9994PHBT43;
+				INFOPLIST_FILE = LactogalRH_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mbitsolutions.LactogalRH-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72DCB7222213487E0028BAEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A5E454041F7E6EFB0213DC /* Pods-LactogalRH_app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9994PHBT43;
+				INFOPLIST_FILE = LactogalRH_app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "mbitsolutions.LactogalRH-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72DCB7062213487C0028BAEF /* Build configuration list for PBXProject "LactogalRH_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DCB71E2213487E0028BAEF /* Debug */,
+				72DCB71F2213487E0028BAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DCB7202213487E0028BAEF /* Build configuration list for PBXNativeTarget "LactogalRH_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DCB7212213487E0028BAEF /* Debug */,
+				72DCB7222213487E0028BAEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		72319729222365C700D2D19D /* LactogalRH_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7231972A222365C700D2D19D /* LactogalRH_app.xcdatamodel */,
+			);
+			currentVersion = 7231972A222365C700D2D19D /* LactogalRH_app.xcdatamodel */;
+			path = LactogalRH_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 72DCB7032213487C0028BAEF /* Project object */;
+}
